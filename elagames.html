@@ -1,25 +1,17 @@
+<!DOCTYPE html>
 <html>
 <head>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
   <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <title>EduGames</title>
-  <style>
-    body {
-      background-color: rgb(20, 107, 158);
-      color: white;
-      font-family: Poppins;
-      text-align: center;
-    }
-    
-    h1 {
-      font-size: 100px;
-    }
+  <title>ELA Games</title>
+</head>
+<body>
+  
+
+<style>
 .button {
     position: relative;
     font-size: 14px;
@@ -31,8 +23,8 @@
     border: none;
     font-family: Poppins;
     font-weight: 425;
-    color: rgb(255, 255, 255);
-    background-color: rgb(48, 48, 48);
+    color: black;
+    background-color: white;
     padding: 1em 2em;
     margin: 5px;
 }
@@ -59,60 +51,43 @@
 }
 
 .button::after {
-  color: rgb(255, 255, 255);
-  background-color: rgb(0, 0, 0);
+    background-color: #fff;
 }
 
 .button:hover::after {
     transform: scaleX(1.4) scaleY(1.6);
     opacity: 0;
 }
-  </style>
-</head>
-
-<body>
-  <!-- text down here -->
-
-
-  <h1>EduGames</h1>
-  <p>Welcome! Enjoy our vareity of games.</p>
+   .center {
+            display: flex;
+            justify-content: center;
+        }
 
 
+
+  .sample {
+    border-radius: 12px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    padding: 10px 20px;
   
+  }
+  .sample:hover {
+    box-shadow:5px 10px 20px #ffffff;
+  }
+</style>
   <style>
-    .text {
-      border-radius:10%;
-      background-color: rgb(0, 0, 0);
+    body {
+      background-color: rgb(20, 107, 158);
+      background-image: "favicon.ico";
+      font-family:sans
     }
   </style>
+<button class="button" onclick="window.location.href='elagames/.html'">The Semicolon Wars: the Fight for Punctuation Island</button>
 
 
 
-  <!-- up there is the text -->
-
-
-  <a href="mathgames.html">
-  <button class="button">Math Games</button>
-  </a>
-  <a href="elagames.html">
-    <button class="button">ELA Games</button>
-    </a>
-  <a href="about.html">
-    <button class="button">About Us</button>
-    </a>
-  <a href="themes.html">
-  <button class="button" >Themes</button>
-  </a>
-
-
- 
-  <div style="position: absolute; top: 0; right: 0;">
-   
-    <a href="https://forms.gle/3MKJ3X7Y4RX9nQ4c9">
-    <button class="button">Teacher/Student Feedback</button>
-    </a>
-
-  </div>
 
     <script>
     document.addEventListener("DOMContentLoaded", function() {
@@ -136,6 +111,16 @@
 });
 
   </script>
+
+
+
+
+ <div class="center">
+    </div>
+</body>
+
+
+<body>
   <div class="dust-particle"></div></body>
 <style>
   #particles-js {
@@ -265,17 +250,5 @@
 </script>
 
 </body>
-  <style>
-        .bottom-script {
-            position: fixed;
-            bottom: 120px;
-            left: 50%;
-            transform: translateX(-50%);
-        }
-    </style>
-</head>
-<body>
-    <div class="bottom-script">
 
-    </div>
 </html>
